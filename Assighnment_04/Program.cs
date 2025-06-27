@@ -1,4 +1,6 @@
-﻿namespace Assighnment_04
+﻿using System.Xml;
+
+namespace Assighnment_04
 {
     internal class Program
     {
@@ -150,6 +152,98 @@
             //Console.WriteLine("the average is " + average);
             //Console.WriteLine("the persentage is " + persentage + "%");
             #endregion
+
+            #region Q11
+            //Console.WriteLine("enter a month number ");
+            //int monthNumber=Convert.ToInt32(Console.ReadLine());    
+            //switch(monthNumber)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("number of days is 31");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("number of days 30");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("number of days is 28 or 29 in leap year");
+            //        break;
+            //    default:
+            //        Console.WriteLine("invalid number ");
+            //        break;
+            //}
+            #endregion
+
+            #region Q12
+            //Console.WriteLine("enter 2 nums ");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("enter the operation ");
+            //char operation = Convert.ToChar(Console.ReadLine());
+            //switch (operation)
+            //{
+            //    case '+':
+            //        Console.WriteLine("the result is " + (num1 + num2));
+            //        break;
+            //    case '-':
+            //        Console.WriteLine("the result is " + (num1 - num2));
+            //        break;
+            //    case '*':
+            //        Console.WriteLine("the result is " + (num1 * num2));
+            //        break;
+            //    case '/':
+            //        if (num2 != 0)
+            //        {
+            //            Console.WriteLine("the result is " + (num1 / num2));
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("can't divide by zero");
+            //        }
+            //        break;
+            //        case '%':
+            //        if (num2 != 0)
+            //        {
+            //            Console.WriteLine("the result is " + (num1 % num2));
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("can't divide by zero");
+            //        }
+            //        break;
+            //    default:
+            //        Console.WriteLine("invalid operation");
+            //        break;
+            //}
+            #endregion
+
+            #region Q13
+            //Console.WriteLine("enter a string");
+            //string? message = Console.ReadLine();
+            //string reversedMessage = string.Concat(message?.Reverse());
+            //Console.WriteLine(reversedMessage);
+            #endregion
+
+            #region Q14
+            //Console.WriteLine("enter a number ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //int reversed = 0;
+            //while (number != 0) // 1234
+            //{
+            //    reversed = reversed*10+(number % 10);
+            //    number /= 10;
+            //}
+            //Console.WriteLine(reversed);
+            #endregion
+
         }
 
     }
